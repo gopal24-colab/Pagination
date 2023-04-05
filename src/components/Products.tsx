@@ -1,18 +1,12 @@
-import axios from "axios";
-import React, { useEffect } from "react";
-const url = "https://dummyjson.com/products";
+import React from "react";
+import Pagination from "../pagination/pagination";
 
 const Products = () => {
-  const fetchProducts = async () => {
-    const res = await fetch(url);
-    console.log(res);
-  };
-
-  useEffect(() => {
-    fetchProducts();
-  }, []);
-
-  return <div>Products</div>;
+  return (
+    <div>
+      <Pagination />
+    </div>
+  );
 };
 
 export default Products;
