@@ -1,0 +1,10 @@
+.pages__style > span {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.pages__style .page__active {
+  color: rgba(237, 28, 28, 0.849);
+  font-size: 20px;
+  text-decoration: underline;
+}
